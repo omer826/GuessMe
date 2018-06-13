@@ -7,7 +7,6 @@ $(document).ready(init);
 function init() {
     createQuests();
     $('.modal').hide();
-
 }
 
 function renderModal(isWin, ans) {
