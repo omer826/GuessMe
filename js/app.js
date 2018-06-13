@@ -6,6 +6,7 @@ $(document).ready(init);
 
 function init() {
     createQuests();
+    $('.modal').hide();
 
 }
 
@@ -19,11 +20,9 @@ function renderModal(isWin, ans) {
     } else {
 
     }
-
-
     elModal.show();
-
 }
+
 function CloseModal() {
     $('.modal').hide();
 }
